@@ -10,6 +10,6 @@ class webserver {
       service { 'httpd':
                  ensure => running,
                  subscribe => File['/var/www/html/index.html'], 
- 	      }
+tesing the git repo for puppet	      }
 }
 
